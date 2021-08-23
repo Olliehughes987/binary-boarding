@@ -40,6 +40,7 @@ with open('input.txt') as file:
 #Sort the array so its easier to search for missing value
 takenSeats.sort()
 
+print("Maximum possible seat ID:",max(takenSeats))
 
 # Iterates through the array and checks for any missing ids by comparing the next item
 # to its expected value.
