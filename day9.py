@@ -13,7 +13,7 @@ def calculateNonValidNum(curr, preamble):
             y = target - i
 
             #checks if that number is in the current section of the array
-            if str(y) in sect:
+            if y in sect:
                 # increases the start and preamble index by 1, so that the section moves forward 1 index in the array
                 start += 1
                 preamble += 1
